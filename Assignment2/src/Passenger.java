@@ -10,7 +10,7 @@ public class Passenger {
 	private String destination;
 	private String passportNumber;
 	private String CNICNumber;
-	private String[] flightDates123;//see later
+	private String[] flightDates1234;//see later
 	private String planeType;
 	
 	// Setter and Getter Functions
