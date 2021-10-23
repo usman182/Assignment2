@@ -101,18 +101,19 @@ public class Passenger {
 						
 	
 	// Function to display passenger information
-	public void displayPassenger()
+	public String toString()
 	{
-		System.out.println("Name: " + name);
+		return "Name = " + name + "\nGender = " + gender + "\nAge = " + age + "\nAddress = " + address + "\nOrigin = " + origin + "\nDestination = " + destination + "\nPassport Number = " + passportNumber + "\nCNIC Number = " + CNICNumber + "\nPlane Type = " + planeType + "";
+		/*System.out.println("Name: " + name);
 		System.out.println("Gender: " + gender);
 		System.out.println("Age: " + age);
 		System.out.println("Address: " + address);
 		System.out.println("Origin: " + origin);
 		System.out.println("Destination: " + destination);
-		System.out.println("Passengers: " + passengers);
+		//System.out.println("Passengers: " + passenger);
 		System.out.println("Passport Number: " + passportNumber);
 		System.out.println("CNIC Number: " + CNICNumber);
-		System.out.println("Plane Type: " + planeType);
+		System.out.println("Plane Type: " + planeType);*/
 		
 	}
 
