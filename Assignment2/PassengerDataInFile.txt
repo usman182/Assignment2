@@ -1,0 +1,4 @@
+Name		Gender	Age	Address					Origin		Destination	Passport Number		CNIC Number		Plane Type	Ticket Number	Flight Time	Flight Day	Seat Number
+Muhammad Usman	Male	19	House no. 1158, Street 111, G - 9/4	Islamabad	Lahore		12345678		61101-8235-086-9	Business		1		27-10-2021	2:00 PM	1
+Jawad Ahmed	Male	17	House no. 1168, Street 111, G - 9/4	Islamabad	Lahore		87654321		61101-8235-085-9	Economy		2		26-10-2021	12:00 PM	1
+Qarish Mehmood	Male	21	House no. 1171, Street 111, G - 9/4	Islamabad	Lahore		43862812		61101-8246-043-9	First		3		24-10-2021	8:00 AM	1

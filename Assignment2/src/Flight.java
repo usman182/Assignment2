@@ -30,16 +30,6 @@ public class Flight {
 		return this.passenger;
 	}
 	
-	public void setDate(Date date)
-	{
-		this.date = date;
-	}
-	
-	public Date getDate()
-	{
-		return this.date;
-	}
-	
 	
 	
 	
@@ -207,6 +197,21 @@ public class Flight {
 			System.out.println("------------------------------------------------------------------------------------------------------------------");
 		
 		}
+	
+	public String getFlightDate()
+	{
+		return this.storeDate;
+	}
+	
+	public String getFlightTime()
+	{
+		return this.storeTime;
+	}
+	
+	public int getFlightSeat()
+	{
+		return this.storeFlightSeat;
+	}
 	
 	
 	public String toString()

@@ -45,6 +45,11 @@ public class Passenger {
 		System.out.println("Enter gender: ");
 		this.gender = scanner.nextLine();
 	}
+	
+	public String getGender()
+	{
+		return this.gender;
+	}
 		
 	
 	// Function to set the age of the passenger
@@ -55,6 +60,10 @@ public class Passenger {
 		this.age = scanner.next();
 	}
 		
+	public String getAge()
+	{
+		return this.age;
+	}
 	
 	// Function to set the address of the passenger
 	public void setAddress()
@@ -62,6 +71,11 @@ public class Passenger {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter address: ");
 		this.address = scanner.nextLine();
+	}
+	
+	public String getAddress()
+	{
+		return this.address;
 	}
 				
 	// Function to set the origin
@@ -72,6 +86,11 @@ public class Passenger {
 		this.origin = scanner.nextLine();
 	}
 	
+	public String getOrigin()
+	{
+		return this.origin;
+	}
+	
 	// Function to set the destination
 	public void setDestination()
 	{
@@ -80,20 +99,30 @@ public class Passenger {
 		this.destination = scanner.nextLine();
 	}
 	
+	public String getDestination()
+	{
+		return this.destination;
+	}
+	
 	// Function to set the passengers
-	public void setPassengers()
+	/*public void setPassengers()
 	{
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter number of passengers: ");
 		passengers = scanner.nextInt();
-	}
+	}*/
 	
 	// Function to set the passport number of the passenger
 	public void setPassportNumber()
 	{
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter passport number: ");
+		System.out.println("Enter passport number (8 digit): ");
 		this.passportNumber = scanner.next();
+	}
+	
+	public String getPassportNumber()
+	{
+		return this.passportNumber;
 	}
 	
 	// Function to set the CNIC number of the passenger
@@ -103,7 +132,11 @@ public class Passenger {
 		System.out.println("Enter CNIC number: ");
 		this.CNICNumber = scanner.next();
 	}
-					
+			
+	public String getCNICNumber()
+	{
+		return this.CNICNumber;
+	}
 	
 	// Function to set the plane type of the passenger
 	public void setPlaneType()
@@ -113,7 +146,10 @@ public class Passenger {
 		this.planeType = scanner.nextLine();
 	}
 	
-	
+	public String getPlaneType()
+	{
+		return this.planeType;
+	}
 						
 	
 	// Function to display passenger information
