@@ -10,16 +10,32 @@ public class Passenger {
 	private String destination;
 	private String passportNumber;
 	private String CNICNumber;
-	private String[] flightDates1234;//see later
 	private String planeType;
 	
-	// Setter and Getter Functions
+	private Ticket ticket;	// composition
+	
+	public Passenger()
+	{
+		ticket = new Ticket();
+	}
+	
+	public Ticket getTicket()
+	{
+		return ticket;
+	}
+	
+	// Setter Functions
 	// Function to set the name of the passenger
 	public void setName()
 	{
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter name: ");
 		this.name = scanner.nextLine();
+	}
+	
+	public String getName()
+	{
+		return this.name;
 	}
 	
 	// Function to set the gender of the passenger
@@ -103,17 +119,7 @@ public class Passenger {
 	// Function to display passenger information
 	public String toString()
 	{
-		return "Name = " + name + "\nGender = " + gender + "\nAge = " + age + "\nAddress = " + address + "\nOrigin = " + origin + "\nDestination = " + destination + "\nPassport Number = " + passportNumber + "\nCNIC Number = " + CNICNumber + "\nPlane Type = " + planeType + "";
-		/*System.out.println("Name: " + name);
-		System.out.println("Gender: " + gender);
-		System.out.println("Age: " + age);
-		System.out.println("Address: " + address);
-		System.out.println("Origin: " + origin);
-		System.out.println("Destination: " + destination);
-		//System.out.println("Passengers: " + passenger);
-		System.out.println("Passport Number: " + passportNumber);
-		System.out.println("CNIC Number: " + CNICNumber);
-		System.out.println("Plane Type: " + planeType);*/
+		return "Name = " + name + "\nGender = " + gender + "\nAge = " + age + "\nAddress = " + address + "\nOrigin = " + origin + "\nDestination = " + destination + "\nPassport Number = " + passportNumber + "\nCNIC Number = " + CNICNumber + "\nPlane Type = " + planeType;
 		
 	}
 
