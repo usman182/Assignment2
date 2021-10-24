@@ -11,7 +11,7 @@ public class DriverClass {
 		do
 		{
 		// Getting customer details
-		/*passenger.setName();
+		passenger.setName();
 		passenger.setGender();
 		passenger.setAge();
 		passenger.setAddress();
@@ -19,7 +19,7 @@ public class DriverClass {
 		passenger.setDestination();
 		passenger.setPassportNumber();
 		passenger.setCNICNumber();
-		passenger.setPlaneType();*/
+		passenger.setPlaneType();
 		
 		//date.setFlightDate("24-10-21", "25-10-21", "26-10-21", "27-10-21", "28-10-21");
 		// Getting flight dates
