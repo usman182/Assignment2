@@ -104,13 +104,7 @@ public class Passenger {
 		return this.destination;
 	}
 	
-	// Function to set the passengers
-	/*public void setPassengers()
-	{
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter number of passengers: ");
-		passengers = scanner.nextInt();
-	}*/
+	
 	
 	// Function to set the passport number of the passenger
 	public void setPassportNumber()
