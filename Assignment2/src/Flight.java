@@ -36,6 +36,7 @@ public class Flight {
 	// Function to set Flight dates
 	public void setFlightDate(String date1, String time1, String amount1, String date2, String time2, String amount2, String date3, String time3, String amount3, String date4, String time4, String amount4, String date5, String time5, String amount5)
 	{
+			
 			Scanner scanner = new Scanner(System.in);
 			int key;
 			do

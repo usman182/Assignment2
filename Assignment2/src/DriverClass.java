@@ -9,14 +9,14 @@ public class DriverClass {
 	
 	public static void main(String[] args) throws IOException
 	{
-		FileWriter myWriter = new FileWriter("PassengerDataInFile.txt");
+		try
+		{
+		FileWriter myWriter = new FileWriter("PassengerDataFile.txt");
 		myWriter.write("Name\t\tGender\tAge\tAddress\t\t\t\t\tOrigin\t\tDestination\tPassport Number\t\tCNIC Number\t\tPlane Type\tTicket Number\tFlight Time\tFlight Day\tSeat Number");
 		
 		Scanner scanner = new Scanner(System.in);
 		int answer;
 		Passenger passenger = new Passenger();	// created a Passenger class object
-		//Date date = new Date();	// created a Date class object
-		
 		
 		do
 		{
@@ -39,7 +39,6 @@ public class DriverClass {
 		myWriter.write("\t\t" + passenger.getCNICNumber());
 		passenger.setPlaneType();
 		myWriter.write("\t" + passenger.getPlaneType());
-		//myWriter.close();
 		
 		Flight flight = new Flight();
 		Ticket ticket = new Ticket();
@@ -62,6 +61,10 @@ public class DriverClass {
 		} while (answer == 1);
 		myWriter.close();	
 	}
-	
+		catch (IOException e)
+		{
+			System.out.println("File does not exist");
+		}
+	}
 	
 }	
