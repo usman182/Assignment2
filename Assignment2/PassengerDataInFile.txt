@@ -1,2 +1,0 @@
-Name		Gender	Age	Address					Origin		Destination	Passport Number		CNIC Number		Plane Type	Ticket Number	Flight Time	Flight Day	Seat Number
-Muhammad Usman	Male	19	House no. 1158, Street 111, G - 9/4	Islamabad	Lahore		87654321		61101-8235-086-9	Economy		1		26-10-2021	12:00 PM	0
